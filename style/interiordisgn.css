@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+}
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    margin-bottom: 40px;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.image-wrapper {
+    flex-basis: 45%;
+    margin-bottom: 40px;
+}
+
+.image-wrapper img {
+    width: 100%;
+}
+
+.video-wrapper {
+    flex-basis: 45%;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    margin-bottom: 40px;
+}
+
+.video-wrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.audio-wrapper {
+    margin-top: 40px;
+    text-align: center;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+/* Vos styles CSS existants ici */
+
+/* Styles spécifiques pour smartphones (<= 767px) */
+@media (max-width: 767px) {
+    /* Ajoutez vos styles pour smartphones ici */
+}
+
+/* Styles spécifiques pour tablettes (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Ajoutez vos styles pour tablettes ici */
+}
+
+/* Styles spécifiques pour desktops (> 1024px) */
+@media (min-width: 1024px) {
+    /* Ajoutez vos styles pour desktops ici */
+}

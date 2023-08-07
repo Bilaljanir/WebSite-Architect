@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+textarea,
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.welcome-message {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    animation: fade-in 2s ease-in-out;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+/* Vos styles CSS existants ici */
+
+/* Styles spécifiques pour smartphones (<= 767px) */
+@media (max-width: 767px) {
+    /* Ajoutez vos styles pour smartphones ici */
+}
+
+/* Styles spécifiques pour tablettes (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Ajoutez vos styles pour tablettes ici */
+}
+
+/* Styles spécifiques pour desktops (> 1024px) */
+@media (min-width: 1024px) {
+    /* Ajoutez vos styles pour desktops ici */
+}

@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/style/index.css"/>
+    <title>PAGE ACCEUIL</title>
+</head>
+<body>
+<header id="home">
+    <div class="header-video">
+        <video autoplay muted loop id="video-background">
+            <source src="video/acceuil.mp4" type="video/mp4">
+        </video>
+
+    <div class="container_content">
+        <div class="container">
+            <div class="icon flex1">
+                <div class="box">
+                </div>
+                <div class="box">
+                    <i class="fa fa-envelope"></i>
+                    <label>bilaljanir@gmail.com</label>
+                    <i class="fa fa-phone"></i>
+                    <label>+ 77 952 40 42</label>
+                </div>
+            </div>
+            <hr>
+            <nav>
+                <div class="brand">
+                    <img src="/image/logo.png" alt="Dot Studio Logo">
+                </div>
+
+
+                <ul id="menu">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="pages/aboutus.html">ABOUT US</a></li>
+                    <li><a href="#BLOG">Glerie</a></li>
+                    <li><a href="#PHOTO">IDEA</a></li>
+                    <li><a href="pages/contact.html">CONTACT</a></li>
+                </ul>
+                <i id="icon" class="fa fa-bars"></i>
+            </nav>
+
+            <div class="home">
+                <h3>INTERIOR DESIGN COMPANY</h3>
+                <h1>Experience Interior <br> Design</h1>
+
+                <div class="item grid">
+                    <div class="item_box flex">
+                        <img src="image/i1.png" width="80" alt="">
+                        <div class="text">
+                            <a href="pages/Interiordisgn.html">Interior Architecture</a>
+                            <p>Conception architecturale d'intérieur.</p>
+                        </div>
+                    </div>
+                    <div class="item_box flex ">
+                        <img src="image/i2.png" width="100" alt="">
+                        <div class="text">
+                            <a href="pages/Interiordisgn.html">Interior Design</a>
+                            <p>Design intérieur créatif et personnalisé.</p>
+                        </div>
+                    </div>
+                    <div class="item_box flex">
+                        <img alt="" src="image/i3.png" width="64">
+                        <div class="text">
+                            <a href="pages/Interiordisgn.html">Furniture</a>
+                            <p>Meubles élégants et fonctionnels pour votre intérieur.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</header>
+
+<script>
+    let bar = document.getElementById("icon");
+    let menu = document.getElementById("menu");
+
+    bar.addEventListener("click", function() {
+        if (bar.className === "fa fa-bars") {
+            bar.className = "fa fa-times";
+            menu.style.right = 0;
+        } else {
+            bar.className = "fa fa-bars";
+            menu.style.right = "-1000px";
+        }
+    })
+</script>
+
+<section class="Design">
+    <div class="container grid">
+        <div class="box flex">
+            <div class="text">
+                <h4>Creative Solutions</h4>
+                <p>Nous vous aidons à trouver des solutions créatives.</p>
+            </div>
+        </div>
+        <div class="box flex">
+            <div class="text">
+                <h4>Design Interior</h4>
+                <p>Nous créons des intérieurs uniques et inspirants.</p>
+            </div>
+        </div>
+        <div class="box flex">
+            <div class="text">
+                <h4>Intuitive Design</h4>
+                <p>Nous concevons des espaces intuitifs et fonctionnels.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="about" id="ABOUT">
+    <div class="container flex1">
+        <div class="left">
+            <div class="img">
+                <img src="image/p1.jpg" alt="">
+            </div>
+        </div>
+
+
+        <div class="right">
+            <h5>Pourquoi nous</h5>
+
+            <h2>Pourquoi nous</h2>
+            <button class="accordion"> 1. Que faire si mon intérieur est endommagé ? </button>
+            <div class="panel active">
+                <p>Si votre intérieur est endommagé, vous pouvez compter sur notre expertise en architecture
+                    d'intérieur pour vous aider à résoudre ce problème. Notre équipe de professionnels expérimentés
+                    évaluera les dommages, vous fournira des conseils personnalisés et proposera des solutions de
+                    réparation adaptées à vos besoins. Nous nous engageons à restaurer et à embellir votre
+                    intérieur, en utilisant des matériaux de qualité supérieure et des techniques de pointe pour
+                    garantir des résultats durables.</p>
+            </div>
+
+            <button class="accordion">2. Où sommes-nous situés ?</button>
+            <div class="panel">
+                <p>Nous sommes idéalement situés au cœur de la ville, dans un quartier dynamique et accessible.
+                    Notre emplacement central nous permet d'être facilement joignables et de collaborer étroitement
+                    avec nos clients. Que vous soyez dans le centre-ville ou dans les environs, notre équipe peut se
+                    rendre sur place rapidement pour discuter de votre projet, évaluer l'espace et commencer à
+                    concevoir votre intérieur idéal.</p>
+            </div>
+
+            <button class="accordion">3. Bâtiments robustes</button>
+            <div class="panel">
+                <p>Nous avons une solide réputation dans la création de bâtiments robustes et résistants. Nous
+                    accordons une grande importance à la qualité de nos réalisations et nous utilisons des matériaux
+                    de première qualité, des techniques de construction avancées et des normes de sécurité strictes
+                    pour garantir la solidité et la durabilité de nos projets. Que vous ayez besoin d'une maison,
+                    d'un bureau ou d'un espace commercial, nous concevrons et construirons un bâtiment solide qui
+                    répondra à vos besoins et dépassera vos attentes.</p>
+            </div>
+
+            <button class="accordion">4. Quels sont nos principaux services ?</button>
+            <div class="panel">
+                <p>Nos services complets en architecture d'intérieur comprennent la conception sur mesure, la
+                    rénovation et la réhabilitation d'espaces existants, la gestion de projet, la sélection de
+                    matériaux et de mobilier, ainsi que la coordination des travaux de construction. Notre équipe
+                    talentueuse de designers, d'architectes et d'artisans travaille en étroite collaboration avec
+                    vous pour créer des intérieurs qui reflètent votre style personnel, répondent à vos besoins
+                    fonctionnels et créent une expérience immersive. Nous sommes passionnés par notre travail et
+                    nous nous engageons à fournir des résultats exceptionnels qui dépassent les attentes de nos
+                    clients.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+</script>
+
+
+<section class="Testimonials" id="Testimonials">
+    <div class="container">
+        <h5>CLIENTS </h5>
+        <h2>Testimonials</h2>
+
+        <div class="owl-carousel owl-theme">
+            <div class="item  ">
+                <div class="box flex">
+                    <div class="img">
+                        <img src="image/t.jpg" alt=""><br>
+                    </div>
+                    <div class="text">
+                        <h3>Cole Marena</h3>
+                        <h5>OWNER OF BUILDING CO.</h5><br>
+                    </div>
+                </div>
+                <p> J'ai beaucoup aimé leur travail.</p>
+            </div>
+            <div class="item  ">
+                <div class="box flex">
+                    <div class="img">
+                        <img src="image/t2.png" alt=""><br>
+                    </div>
+                    <div class="text">
+                        <h3>Cole Marena</h3>
+                        <h5>OWNER OF BUILDING CO.</h5><br>
+                    </div>
+                </div>
+                <p>Beautiful</p>
+        </div>
+            </div>
+        </div>
+</section>
+
+<script>
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        dots: true,
+        autoplay: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            800: {
+                items: 2
+            },
+            1000: {
+                items: 3
+            }
+        }
+    })
+</script>
+
+
+<section class="about photo" id="PHOTO">
+    <div class="container flex1">
+        <div class="left">
+            <div class="img">
+                <img src="image/about.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="right grid1">
+            <div class="box">
+                <img src="image/i7.png" alt="">
+                <h3>Décoration intérieure</h3>
+            </div>
+            <div class="box">
+                <img src="image/i4.png" alt="">
+                <h3>Décor de siège</h3>
+            </div>
+            <div class="box">
+                <img src="image/i5.png" alt="">
+                <h3>Idée intuitive</h3>
+            </div>
+            <div class="box">
+                <img src="image/i6.png" alt="">
+                <h3>Decoration</h3>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+<section class="blog" id="BLOG">
+    <div class="container">
+        <h5>Nouveau & style</h5>
+        <h2>Galerie</h2>
+        <br><br>
+        <div class="content grid">
+            <div class="box">
+                <div class="img">
+                    <img src="image/p1.jpg" alt="">
+                </div>
+                <div class="text">
+                    <label>23, Juin 2021</label><br>
+                    <p></p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="image/p2.png" alt="">
+                </div>
+                <div class="text">
+                    <label>23, mai 2021</label><br>
+                    <p></p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="image/p3.jpg" alt="">
+                </div>
+                <div class="text">
+                    <label>23, Janvier 2021</label><br>
+                    <p></p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="image/p4.jpg" alt="">
+                </div>
+                <div class="text">
+                    <label>1, Janvier 2022</label><br>
+                    <p></p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="image/p5.jpg" alt="">
+                </div>
+                <div class="text">
+                    <label>23, Janvier 2021</label><br>
+                    <p></p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="image/p6.jpg" alt="">
+                </div>
+                <div class="text">
+                    <label>2, mai 2021</label><br>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="viewall">
+    <a href="#">page acceuil</a>
+    </div>
+</section>
+
+
+<div class="footer">
+    <div class="contain">
+        <div class="col">
+            <h1>Architect</h1>
+            <ul>
+                <li>Mosh</li>
+                <li>Mike</li>
+                <li>lara</li>
+            </ul>
+        </div>
+        <div class="col">
+            <h1>About</h1>
+            <ul>
+                <li>Terms</li>
+                <li>Mission</li>
+                <li>Services</li>
+                <li>Education</li>
+                <li>Get in touch</li>
+            </ul>
+        </div>
+        <div class="col">
+            <h1>Website</h1>
+            <ul>
+                <li>Codoxia</li>
+                <li>Codo Code</li>
+                <li>CodePotro</li>
+                <li>CodeRunner</li>
+                <li>Code-templates</li>
+                <li>CodeKhan</li>
+            </ul>
+        </div>
+        <div class="col">
+            <h1>Support</h1>
+            <ul>
+                <li>Contact us</li>
+                <li>Send Email</li>
+                <li>Buy a phone</li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <footer class="foot">
+        <p> Copyright © 2020 - All rights Reserved - Designed by Bilal janir </p>
+    </footer>
+</div>
+</body>
+
+</html>
+
